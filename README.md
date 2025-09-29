@@ -2,13 +2,13 @@
 
 This project implements a deep learning model for audio super-resolution, specifically designed to enhance low-sampling-rate speech signals for improved performance in Automatic Speech Recognition (ASR) systems. The model upsamples audio from 2, 4, or 8 kHz to 16 kHz.
 
-***
+
 
 ## Dataset
 
 The model was trained and evaluated on the **LibriSpeech** dataset, using 100 hours of the `train-clean-100` subset.
 
-***
+
 
 ## Methodology
 
@@ -37,7 +37,7 @@ The model is trained to optimize a combined loss function that balances signal f
 * **Signal Reconstruction Loss**: Mean Squared Error (MSE) between the predicted and the ground-truth high-resolution audio.
 * **ASR-aware Perceptual Loss**: An L1 loss between the latent representations of the predicted and ground-truth audio, extracted from a pre-trained **Wav2Vec 2.0** model. This pushes the model to generate output that is more intelligible to ASR systems.
 
-***
+
 
 ## Results
 
@@ -58,7 +58,7 @@ _Table data sourced from the results table in the provided context._
 
 The **ECA-CNN** model provides the best balance of performance and efficiency. While traditional methods like Cubic Interpolation achieve high perceptual scores (PESQ), they result in poor ASR accuracy (higher WER/CER). The ECA-CNN significantly improves ASR performance over baseline methods while remaining computationally efficient, making it a practical solution for enhancing speech quality in ASR pipelines.
 
-***
+
 
 ## How to Run
 
