@@ -41,14 +41,14 @@ The model is trained to optimize a combined loss function that balances signal f
 
 The ECA-enhanced CNN was benchmarked against traditional interpolation methods and other attention-based models. Performance was measured using ASR metrics (Word Error Rate - WER, Character Error Rate - CER) and audio quality metrics (PESQ, STOI).
 
-| Method                | WER (%)   | CER (%)   | PESQ     | STOI     |
-|  |  |  | -- | -- |
-| **ECA-CNN (Ours)**    | **26.67** | **13.92** | **1.62** | **0.80** |
-| SE-CNN                | 29.71     | 15.05     | 1.68     | 0.80     |
-| CBAM-CNN              | 42.79     | 24.20     | 1.06     | 0.56     |
-| Cubic Interpolation   | 28.37     | 14.51     | 1.70     | 0.80     |
-| Linear Interpolation  | 32.69     | 16.69     | 1.45     | 0.80     |
-| Nearest Interpolation | 33.58     | 17.59     | 1.08     | 0.79     |
+| Method | WER (%) | CER (%) | PESQ | STOI |
+| :--- | :--- | :--- | :--- | :--- |
+| **ECA-CNN (Ours)** | **26.67** | **13.92** | **1.62** | **0.80** |
+| SE-CNN | 29.71 | 15.05 | 1.68 | 0.80 |
+| CBAM-CNN | 42.79 | 24.20 | 1.06 | 0.56 |
+| Cubic Interpolation| 28.37 | 14.51 | 1.70 | 0.80 |
+| Linear Interpolation| 32.69 | 16.69 | 1.45 | 0.80 |
+| Nearest Interpolation| 33.58 | 17.59 | 1.08 | 0.79 |
 
 
 ### Conclusion
