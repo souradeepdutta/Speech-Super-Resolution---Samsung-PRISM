@@ -66,8 +66,8 @@ The entire workflow, from preprocessing to training, is contained within the `su
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/souradeepdutta/Speech-Super-Resolution-Samsung-PRISM.git](https://github.com/souradeepdutta/Speech-Super-Resolution-Samsung-PRISM.git)
-    cd your-repo-name
+    git clone https://github.com/souradeepdutta/Speech-Super-Resolution-Samsung-PRISM.git
+    cd Speech-Super-Resolution-Samsung-PRISM
     ```
 
 2.  **Set up the Environment:**
